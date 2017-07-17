@@ -1,3 +1,4 @@
+document.getElementById("author").innerHTML += " - Animated thumbnail script ready";
 var dropper = $("#info");
 dropper.on("dragover", function(e) {
 	e.stopPropagation();
